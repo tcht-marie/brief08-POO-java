@@ -6,8 +6,8 @@ titre: Nebula Game Labs
 ---
 
 classDiagram
-    Village <|-- Batiments
-    Village <|-- Unites
+    Village *-- Batiments
+    Village *-- Unites
     
     class Batiments {
         <<abstract>>
@@ -64,13 +64,13 @@ classDiagram
     Batiments <|-- Constructible : implements
     Constructible : construire(Object constructeur)
     
-    Atelier <|-- Arme : association
+    Atelier --> Arme : association
     class Arme {
         <<record>>
         +String name
     }
     
-    Atelier <|-- Outil : association
+    Atelier --> Outil : association
     class Outil {
         <<record>>
         +String name
@@ -105,7 +105,7 @@ classDiagram
     Unites <|-- Villageois: inheritance
     class Villageois {
         +String name
-        -+List~RessourcesTypes~ ressources
+        -List~RessourcesTypes~ ressources
     }
     Villageois <|-- Collecter : implements
     Collecter : +collecteRessources(RessourcesTypes ressourcesTypes)
