@@ -21,7 +21,7 @@ sequenceDiagram
     Villageois->>Village : ramène les ressources
     
     Villageois->>MurDefense : termine la construction grâce aux ressources
-    note right of MurDefense : mur terminé !
+    note left of MurDefense : mur terminé !
     
     destroy RessourcesTypes
     Villageois-xRessourcesTypes : plus de ressources
@@ -42,7 +42,7 @@ sequenceDiagram
     Soldat2-->>MurDefense : détruit le mur de défense
     destroy MurDefense
     Soldat3-->>MurDefense : plus de mur haha !!
-    note right of MurDefense : mur détruit !
+    note left of MurDefense : mur détruit !
 
     
 
