@@ -7,6 +7,7 @@ titre: Nebula Game Labs
 
 sequenceDiagram
     participant RessourcesTypes
+    actor Villageois
     
     Villageois->>RessourcesTypes : part récolter des ressources
     
@@ -20,11 +21,13 @@ sequenceDiagram
     Villageois->>Village : ramène les ressources
     
     Villageois->>MurDefense : termine la construction grâce aux ressources
+    note right of MurDefense : mur terminé !
     
     destroy RessourcesTypes
     Villageois-xRessourcesTypes : plus de ressources
 
     Villageois->>Maison : se repose dans sa maison
+    note right of Villageois : je suis fatigué
     
     box rgb(153,0,0) SoldatsEnnemis
     actor Soldat1
@@ -39,6 +42,7 @@ sequenceDiagram
     Soldat2-->>MurDefense : détruit le mur de défense
     destroy MurDefense
     Soldat3-->>MurDefense : plus de mur haha !!
+    note right of MurDefense : mur détruit !
 
     
 
