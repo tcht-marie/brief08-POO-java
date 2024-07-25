@@ -1,18 +1,14 @@
 package unites;
 
-import ressources.RessourcesTypes;
-import unites.artisan.Artisan;
-import unites.explorateur.Eclaireur;
-import unites.soldats.Soldat;
-import unites.villageois.Collecter;
-import unites.villageois.Villageois;
+import batiments.maison.SeReposer;
 
-public abstract class Unites {
+public abstract class Unites implements SeDeplacer, SeReposer {
 
-
+    @Override
     public void seDeplace() {
     }
 
+    @Override
     public void seRepose() {
     }
 }

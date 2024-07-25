@@ -1,10 +1,8 @@
 package unites.soldats;
 
-import batiments.maison.SeReposer;
 import unites.Unites;
-import unites.SeDeplacer;
 
-public class Soldat extends Unites implements SeReposer, SeDeplacer{
+public class Soldat extends Unites {
     public String name;
 
     public Soldat(String name) {

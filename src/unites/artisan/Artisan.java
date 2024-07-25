@@ -1,12 +1,10 @@
 package unites.artisan;
 
 import batiments.atelier.Fabrication;
-import batiments.maison.SeReposer;
-import unites.SeDeplacer;
 import unites.Unites;
 import unites.villageois.Villageois;
 
-public class Artisan extends Unites implements Fabrication, SeDeplacer, SeReposer {
+public class Artisan extends Unites implements Fabrication {
     private Villageois villageois;
 
     public Artisan(Villageois villageois) {

@@ -5,7 +5,7 @@ import unites.SeDeplacer;
 import unites.Unites;
 import unites.soldats.Soldat;
 
-public class Eclaireur extends Unites implements SeDeplacer, SeReposer {
+public class Eclaireur extends Unites {
     private Soldat soldat;
 
     public Eclaireur(Soldat soldat) {

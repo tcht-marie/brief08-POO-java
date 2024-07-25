@@ -1,13 +1,12 @@
 package unites.villageois;
 
 import ressources.RessourcesTypes;
-import unites.SeDeplacer;
 import unites.Unites;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Villageois extends Unites implements Collecter, SeDeplacer {
+public class Villageois extends Unites implements Collecter {
     public String name;
     private List<RessourcesTypes> ressources;
 
