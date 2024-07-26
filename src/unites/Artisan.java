@@ -1,8 +1,6 @@
-package unites.artisan;
+package unites;
 
-import batiments.atelier.Fabrication;
-import unites.Unites;
-import unites.villageois.Villageois;
+import batiments.interfaces.Fabrication;
 
 public class Artisan extends Unites implements Fabrication {
     private Villageois villageois;

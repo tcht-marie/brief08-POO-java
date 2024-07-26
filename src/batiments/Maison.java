@@ -1,7 +1,6 @@
-package batiments.maison;
+package batiments;
 
-import batiments.Batiments;
-import unites.villageois.Villageois;
+import unites.Villageois;
 
 public class Maison extends Batiments  {
     private Villageois villageois;

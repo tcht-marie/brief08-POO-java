@@ -1,6 +1,4 @@
-package unites.soldats;
-
-import unites.Unites;
+package unites;
 
 public class Soldat extends Unites {
     public String name;

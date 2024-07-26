@@ -1,6 +1,4 @@
-package unites.chef;
-
-import unites.Unites;
+package unites;
 
 public class Chef extends Unites {
     private String name;

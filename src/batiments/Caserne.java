@@ -1,8 +1,7 @@
-package batiments.caserne;
+package batiments;
 
-import batiments.Batiments;
-import unites.chef.Chef;
-import unites.soldats.Soldat;
+import unites.Chef;
+import unites.Soldat;
 
 import java.util.ArrayList;
 import java.util.List;

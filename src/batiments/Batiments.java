@@ -1,7 +1,8 @@
 package batiments;
 
-import batiments.maison.SeReposer;
-import unites.villageois.Villageois;
+import batiments.interfaces.Constructible;
+import batiments.interfaces.SeReposer;
+import unites.Villageois;
 
 public abstract class Batiments implements SeReposer, Constructible {
 

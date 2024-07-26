@@ -1,9 +1,4 @@
-package unites.explorateur;
-
-import batiments.maison.SeReposer;
-import unites.SeDeplacer;
-import unites.Unites;
-import unites.soldats.Soldat;
+package unites;
 
 public class Eclaireur extends Unites {
     private Soldat soldat;

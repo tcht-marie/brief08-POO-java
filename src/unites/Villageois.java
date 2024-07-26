@@ -1,7 +1,7 @@
-package unites.villageois;
+package unites;
 
 import ressources.RessourcesTypes;
-import unites.Unites;
+import unites.interfaces.Collecter;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package batiments.maison;
+package batiments.interfaces;
 
 public interface SeReposer {
     void seRepose();

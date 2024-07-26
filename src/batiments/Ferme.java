@@ -1,6 +1,6 @@
-package batiments.ferme;
+package batiments;
 
-import batiments.Batiments;
+import batiments.interfaces.ProductionAliments;
 
 public class Ferme extends Batiments implements ProductionAliments {
 

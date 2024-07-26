@@ -1,8 +1,7 @@
-package batiments.murDefense;
+package batiments;
 
-import batiments.Batiments;
-import unites.soldats.Soldat;
-import unites.SeDeplacer;
+import unites.Soldat;
+import unites.interfaces.SeDeplacer;
 
 public class MurDefense extends Batiments implements SeDeplacer {
     private Soldat soldat;

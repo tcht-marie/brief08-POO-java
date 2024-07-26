@@ -1,6 +1,7 @@
 package unites;
 
-import batiments.maison.SeReposer;
+import batiments.interfaces.SeReposer;
+import unites.interfaces.SeDeplacer;
 
 public abstract class Unites implements SeDeplacer, SeReposer {
 

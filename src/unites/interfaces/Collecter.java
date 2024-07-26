@@ -1,4 +1,4 @@
-package unites.villageois;
+package unites.interfaces;
 
 import ressources.RessourcesTypes;
 
