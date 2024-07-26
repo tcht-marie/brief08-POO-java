@@ -18,7 +18,7 @@ public abstract class Batiments implements SeReposer, Constructible {
     @Override
     public void construire(Object constructeur) {
         if (constructeur instanceof Villageois) {
-            System.out.println(((Villageois) constructeur).name + " a construit " + ".");
+            System.out.println(((Villageois) constructeur).name + " a construit " + type + ".");
         } else {
             throw new IllegalArgumentException("Invalid input");
         }
