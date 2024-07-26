@@ -6,12 +6,14 @@ import batiments.atelier.Atelier;
 import batiments.atelier.Outil;
 import batiments.Ferme;
 import batiments.Maison;
+import quetes.QuetesTypes;
 import ressources.RessourcesTypes;
 import unites.Chef;
 import unites.Artisan;
 import unites.Eclaireur;
 import unites.Soldat;
 import unites.Villageois;
+import quetes.Quete;
 
 public class Village {
     public static void main(String[] args) {
@@ -88,5 +90,12 @@ public class Village {
         commerce.addRessource(RessourcesTypes.PIERRE);
 
         olivierArtisan.seRepose();
+
+        // quêtes
+        Quete quete1 = new Quete();
+        quete1.setQuete(QuetesTypes.COLLECTER, RessourcesTypes.NOURRITURE);
+
+        Quete quete2 = new Quete();
+        quete2.setQuete(QuetesTypes.CONSTRUIRE, RessourcesTypes.OUTIL);
     }
 }

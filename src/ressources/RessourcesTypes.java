@@ -6,5 +6,7 @@ public enum RessourcesTypes{
     BOIS,
     PIERRE,
     NOURRITURE,
-    FER;
+    FER,
+    ARME,
+    OUTIL;
 }
